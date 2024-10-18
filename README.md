@@ -18,10 +18,10 @@ This project was initially designed for a mobile application. Therefore, its lay
 4. Create a file named ```config.py``` in the same directory as ```main.py```.
 
 5. Add the following values to it:
-  **Note:** You can obtain these values from your Supabase project.
   * ```SUPABASE_KEY```
   * ```SUPABASE_URL```
   * ```WEB-SITE```  
+  **Note:** You can obtain these values from your Supabase project.
  
 6. Run command ```flet run --ios``` or ```flet run --android```
 
