@@ -12,8 +12,8 @@ class Controller:
         self.database = database
         
         self.routes = {
-            "/sign_in": SignUpView(page, database),
-            "/sign_up": SignInView(page, database),
+            "/sign_in": SignInView(page, database),
+            "/sign_up": SignUpView(page, database),
             "/home": HomeView(page, database),
         }
 
